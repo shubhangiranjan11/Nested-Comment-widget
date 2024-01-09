@@ -6,7 +6,7 @@ import { ReactComponent as UpArrow } from "../assets/up-arrow.svg";
 const Comment = ({
   handleInsertNode,
   handleEditNode,
-  handleDeleteNode,
+  handleDeleteNode, 
   comment,
 }) => {
   const [input, setInput] = useState("");
